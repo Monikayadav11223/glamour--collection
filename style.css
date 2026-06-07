@@ -1,0 +1,76 @@
+body{
+    background-color: #ececec;
+}
+
+
+.color{
+    color: #ce0d2e;
+}
+
+.backcolor{
+    background-color: #ce0d2e;
+
+}
+
+.heading{
+    color:#944a2b;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight:500;
+    font-family: monotype cursive;
+}
+
+.mycard{
+    transition: 0.5s ease;
+  }
+
+  .mycard:hover
+  {
+    margin-top: -20px;
+  }
+
+  .zoom-in div{
+    overflow: hidden;
+  }
+  .zoom-in div img{
+    transition: 0.5s ease;
+  }
+  .zoom-in:hover div img
+  {
+    transform: scale(1.2);
+  }
+
+  .image1{
+    background-image: url(../image/about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+  }
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+.nav-item .nav-link:hover{
+  color: #ce0d2e;
+  text-decoration: underline;
+}
+
+.icon-box{
+  color: #ce0d2e;
+}
+
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+  top: 13px;
+  }
